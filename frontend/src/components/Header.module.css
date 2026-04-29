@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 40px;
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  background: rgba(14,14,14,0.88);
+  backdrop-filter: blur(12px);
+  z-index: 100;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logoMark {
+  width: 30px;
+  height: 30px;
+  background: var(--accent);
+  color: #0e0e0e;
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-style: italic;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-sm);
+  flex-shrink: 0;
+}
+
+.logoText {
+  font-family: var(--font-display);
+  font-size: 20px;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+}
+
+.link {
+  font-size: 13px;
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: color var(--transition);
+}
+
+.link:hover { color: var(--text-primary); }
+
+@media (max-width: 600px) {
+  .header { padding: 14px 16px; }
+}
