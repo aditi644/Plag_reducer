@@ -4,7 +4,7 @@
 
 ![Humanize App Screenshot](./humanize.png)
 
-🔗 **Live Demo:** [https://your-deployed-link.onrender.com](https://plag-reducer.onrender.com)
+🔗 **Live Demo:** [link](https://plag-reducer.onrender.com)
 
 ---
 
