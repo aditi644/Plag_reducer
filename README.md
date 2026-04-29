@@ -2,7 +2,7 @@
 
 > Paste AI-generated text and get a natural, human-sounding rewrite — same meaning, zero robot energy.
 
-![Humanize App Screenshot](./Screenshot 2026-04-29 192756.png)
+![Humanize App Screenshot](./humanize.png)
 
 🔗 **Live Demo:** [https://your-deployed-link.onrender.com](https://plag-reducer.onrender.com)
 
