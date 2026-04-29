@@ -13,6 +13,14 @@ if (!process.env.OPENAI_API_KEY) {
 
 const app = express()
 
+if (process.env.NODE_ENV == "production") {
+  app.use(express.static(path.join(_dirname, "../frontend/dist")));
+
+  app.get("*", (req, res) => {
+    res.sendFile(path.join(_dirname, "../frontend", "dist", "index.html"));
+  })
+}
+
 // ── Middleware ────────────────────────────────────────────────────────────────
 app.use(cors({
   origin: process.env.FRONTEND_URL || 'http://localhost:5173',
