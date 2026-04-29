@@ -2,6 +2,7 @@ import express from 'express'
 import cors from 'cors'
 import dotenv from 'dotenv'
 import rewriteRouter from './routes/rewrite.js'
+import path from 'path'
 
 dotenv.config()
 
