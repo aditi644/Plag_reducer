@@ -13,6 +13,7 @@ if (!process.env.OPENAI_API_KEY) {
 }
 
 const app = express()
+const _dirname = path.resolve();
 
 if (process.env.NODE_ENV == "production") {
   app.use(express.static(path.join(_dirname, "../frontend/dist")));
